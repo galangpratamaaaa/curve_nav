@@ -27,6 +27,7 @@ dependencies:
   flutter_barcode_scanner: ^1.0.2
   barcode: ^1.17.1
   qr_flutter: ^3.2.0
+  http: ^0.12.2
 
 
 
@@ -62,8 +63,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+    - madinah.png
+    - mekah.jpg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
